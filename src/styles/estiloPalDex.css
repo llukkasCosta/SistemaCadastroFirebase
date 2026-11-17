@@ -1,0 +1,267 @@
+.container-pals {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-pals h1 {
+    text-align: center;
+    color: #0f172a;
+    margin: 2px;
+}
+
+.card-pals {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #D1851A;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.card-pals label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.card-pals input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.card-pals select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.nome-numero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1e293b;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.nome-numero span {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    font-size: 1.2rem;
+}
+
+.nome-numero .numero {
+    font-size: 1.5rem;
+}
+
+.nome-numero .nome {
+    font-size: 1.3rem;
+}
+
+button{
+    transition: transform 0.5s ease;
+}
+
+button:hover{
+     transform: translateY(-5px);
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.botoes button {
+    padding: 15px 25px;
+
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.botoes .botao-selecionar {
+    background-color: #5720ec;
+}
+
+.botoes .botao-excluir {
+    background-color: #ec2020;
+}
+
+
+.sem-pals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #D1851A;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.topo-acoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-acoes a{
+    color: #fffefe;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #1e293b;
+    width: 90%;
+    border: 2px solid #38bdf8;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.sem-pals a {
+    margin-top: 10px;
+    color: #fffefe;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #1e293b;
+    width: 90%;
+    border: 2px solid #38bdf8;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.topo-acoes a {
+    width: 80%;
+    margin: 10px;
+}
+
+.mensagem h4{
+    color: #1e293b
+}
+
+.painel-edicao{
+    display: flex;
+    flex-direction: column;
+      border: 2px solid #4b1ad1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+.painel-edicao label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.painel-edicao input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.painel-edicao select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.botoes .botao-cancelar{
+      background-color: #ec2020;
+}
+
+.botoes .botao-alterar{
+     background-color: #5720ec;
+}
+
+
+.botoes .botao-cancelar{
+      background-color: #ec2020;
+}
+
+.botoes .botao-alterar{
+     background-color: #5720ec;
+}
+.btn-cadastrar{
+    transition: transform 0.5s ease;
+    width: 80%;
+}
+
+.btn-cadastrar:hover{
+    transform: translateY(-5px);
+
+}
+@media (min-width: 768px){
+
+    .container-pals {
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .sem-pals {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sem-pals a {
+        width: 60%;
+    }
+
+    .topo-acoes a {
+        width: 40%;
+        margin: 10px;
+    }
+    .nome-numero .nome{
+        font-size: 1.6rem;
+    }
+
+    .painel-edicao{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .exibirPals{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
+    .btn-cadastrar{
+        width: 90%;
+    }
+
+
+    
+}

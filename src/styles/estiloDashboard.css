@@ -1,0 +1,25 @@
+.card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  gap: 15px; /* Espaçamento igual entre os cards */
+  width: 100%;
+    
+}
+
+
+.card-conteudo{
+     border: 2px solid #38bdf8;
+     border-radius: 5px;
+     margin: 10px;
+     border-left: 5px solid #D1851A ;
+     padding: 5px;
+}
+
+
+
+
+@media (min-width: 768px){
+    .card{
+        flex-direction: row;
+    }
+}
